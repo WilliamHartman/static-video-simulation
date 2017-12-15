@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    /* COMP 24F */
+    box-sizing: border-box;
+}
+
+body{
+    padding:100px 0; 
+}
+
+nav{
+    width:100%;
+    height: 100px;
+    /* COMP 23E */ 
+    background-color: rgb(33, 130, 221);
+    /* COMP 23D */    
+    font-size: 40px;
+    /* COMP 25F */
+    /* COMP 27G */    
+    display: flex;
+    /* COMP 27F */
+    flex-direction: row;
+    /* COMP 27D */    
+    align-items: center;
+    /* COMP 27C */
+    justify-content: center;
+    /* COMP 25C */    
+    position: fixed;
+    /* COMP 27E */
+    flex-wrap: wrap;
+    top: 0;
+    color:rgb(9, 37, 63);
+}
+
+/* COMP 22C-2 */
+/* COMP 22C-4 */
+.videos video {
+    width: 40%;
+    /* COMP 24C */    
+    margin-left: 7.5%;
+    margin-top: 5%;
+    /* COMP 24D */
+    border: 1px solid rgb(9, 38, 65);
+    border-radius: 5px; 
+    /* COMP 30C */
+    box-shadow: 2px 5px #888888;
+}
+
+/* COMP 22C-3 */
+body > footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #081E33;
+    height: 60px;
+}
+
+/* COMP 22C-1 */
+#toggleVideo {
+    display: none;
+    position: fixed;
+    height: 40%;
+    width: 50%;
+    left: 25%;
+    top: 25%;
+    background: #1B5387;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    /* COMP 24E */
+    padding: 5px;
+}
+
+#toggleVideo video {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 8%;
+}
+
+#randomVidVideo {
+    border: 1px solid rgb(0, 0, 0);
+}
